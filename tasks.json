@@ -2,7 +2,7 @@
   "meta": {
     "title": "MR693 全局任務看板",
     "subtitle": "Antigravity Agentic Kanban — 跨對話全景整合與自主推進",
-    "last_updated": "2026-09-13",
+    "last_updated": "2026-09-14",
     "note": "由 AI 自動萃取全量對話日誌更新。支援 GitHub Pages 跨裝置即時瀏覽。"
   },
   "columns": {
@@ -11,11 +11,18 @@
       "color": "amber",
       "tasks": [
         {
-          "id": "todo-hao-pbl-01",
+          "id": "haohao-kumon-en-01",
           "issue": 5,
           "tag": "家庭教育",
-          "title": "啟動浩浩科技實作專案與自立自主學習",
-          "desc": "落實每週 3 日各 1 小時陪伴（共 3 小時），以自選電腦/科技 PBL 專案為核心，長期引導獨立自學。"
+          "title": "浩浩：KUMON 英文學力診斷預約",
+          "desc": "英文約 65-75 分，動機偏低。預約 KUMON 英文學力診斷，從孩子可順利完成的起點開始，每日 10-15 分鐘，數英合計不超過 45 分鐘，不犧牲睡眠。"
+        },
+        {
+          "id": "haohao-habit-3anchors",
+          "issue": 5,
+          "tag": "家庭教育",
+          "title": "浩浩：親子共同確立三錨點時間",
+          "desc": "① 作業啟動時間　② 平板結束時間（建議 21:30）　③ 熄燈時間（建議 22:15）。由親子共同填入，非家長單方規定，並製作每週記錄表，週日一起看。"
         },
         {
           "id": "todo-ipas-mock-01",
@@ -31,6 +38,20 @@
       "color": "blue",
       "tasks": [
         {
+          "id": "haohao-6yr-plan",
+          "issue": 5,
+          "tag": "家庭教育",
+          "title": "浩浩六年國高中學習計劃（國一上啟動）",
+          "desc": "大同國中 2026/9 入學。升學目標：彰化高中/員林高中（普高路線），挑戰：臺中一中/臺中二中。數學 KUMON 穩定進行中；英文（65-75分）為主要突破口。國一重點：習慣建立 → 英文突破 → 探索社團興趣。手語特長維持，作為升學比序亮點。"
+        },
+        {
+          "id": "mr693-kb-integration",
+          "issue": 18,
+          "tag": "系統工程",
+          "title": "MR693 跨機路徑修正 × yt-summarizer 整合",
+          "desc": "已完成：server.py/indexer.py/auto_triage.py 改為 __file__ 動態偵測；start_all.bat 全面換 %~dp0；yt-summarizer OUTPUT_DIR 自動找 MR693/00_Inbox；完成後自動觸發 /api/rescan；建立 .gdriveignore。"
+        },
+        {
           "id": "inbox-weekly-distill",
           "issue": 17,
           "tag": "知識資產",
@@ -43,13 +64,6 @@
           "tag": "房產財務",
           "title": "LINE Bank 70萬信貸配置與現金流管理",
           "desc": "9/3核貸70萬(10年期/利率6.49%/月付約7,951元)。配置：太太35萬、自用35萬(優先清償高息卡債、剩餘穩健佈局0050)。"
-        },
-        {
-          "id": "b16bed8c",
-          "issue": 5,
-          "tag": "家庭教育",
-          "title": "浩浩 6 年國高中自主學習系統落實",
-          "desc": "確立每週 3 日各 1 小時共學陪伴常態機制（每週 3 小時），結合平板與實作，長期錨定「自立自主學習」目標。"
         }
       ]
     },
@@ -58,11 +72,25 @@
       "color": "emerald",
       "tasks": [
         {
+          "id": "mr693-path-fix-done",
+          "issue": 18,
+          "tag": "系統工程",
+          "title": "MR693 所有腳本跨機路徑修正完畢",
+          "desc": "server.py / indexer.py / auto_triage.py / start_all.bat / 啟動知識庫.bat 全面移除硬碼 D:\\MR693，改為動態偵測。電腦 A (D:) 與電腦 B (H:) 皆可無縫啟動。"
+        },
+        {
+          "id": "yt-summarizer-integration-done",
+          "issue": 18,
+          "tag": "知識資產",
+          "title": "yt-summarizer × MR693 自動整合流水線建立",
+          "desc": "OUTPUT_DIR 自動偵測 MR693/00_Inbox；任務完成後自動觸發 /api/rescan；31 個舊 UUID 報告已清除；.gdriveignore 排除 .db/log/cache。"
+        },
+        {
           "id": "inbox-yt-resources-hub",
           "issue": 16,
           "tag": "知識資產",
           "title": "00_Inbox 影音每週歸檔 ＆ 智庫聚焦 03 資源",
-          "desc": "已打造 auto_triage 自動分流與純淨索引，納入啟動全部服務.bat，知識庫正式聚焦 03 資源 (389 篇)。"
+          "desc": "已打造 auto_triage 自動分流與純淨索引，納入啟動全部服務.bat，知識庫正式聚焦 03 資源 (409+ 篇)。"
         },
         {
           "id": "todo-landbank-01",
@@ -79,13 +107,6 @@
           "desc": "已確認電腦 B 啟用「一律保留在此裝置上」，確保本地快速讀寫與離線可用。"
         },
         {
-          "id": "cc1eb7dc",
-          "issue": 14,
-          "tag": "系統工程",
-          "title": "雙機路徑整頓、MCP 修復與全局看板重啟",
-          "desc": "確立本地磁碟與雲端邊界、修復 Windows CRLF 與動態路徑缺陷，建立 Issue #14 並重啟全局同步。"
-        },
-        {
           "id": "milestone-01-foundation",
           "issue": 2,
           "tag": "🏆 里程碑封存",
@@ -95,4 +116,4 @@
       ]
     }
   }
-}
+}
