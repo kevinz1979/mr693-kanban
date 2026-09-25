@@ -36,6 +36,13 @@
   - [x] 結案 Issue #16（00_Inbox 影音分流與 389 篇知識庫索引全自動化）
   - [ ] 推進 Issue #17（每週靈感提煉 Weekly Review SOP 與轉化）
 
+- [/] **階段六：看板智慧化升級與 Agentic Mission Control (2026-09-26)**
+  - [x] 完成開源前沿 (KaibanJS/Agent Kanban/Chorus) 激發之升級計劃書
+  - [x] 修復倉庫命名單一真理（全面錨定 `kevinz1979/mr693-kanban`）
+  - [x] 擴充 `github_mcp.py`：新增 `get_issue_detail`、`add_issue_labels`，支援多狀態篩選與標籤注入
+  - [x] 升級 `AGENTS.md` 規範：任務自動附帶領域 (`area:`)、指派常駐代理人 (`agent:`) 與優先級 (`P1/P2`)
+  - [ ] 推進階段二：Telegram 語音速記秒發卡與 Jev 脊髓秒審
+
 ---
 
 ## 🧭 快速跳轉索引 (Quick Navigation)
@@ -46,4 +53,5 @@
 | **🎓 家庭與教育** | [浩浩六年自主學習規劃](conversation://b16bed8c-b726-43ec-a05b-335be8cdbd7d) | 🔄 進行中 | `hao_hao_learning_plan_dashboard.html` |
 | **🚀 AI 證照與工程** | [iPAS AI 術語庫與 Git](conversation://b769e1a0-a410-483c-9f73-3c76a7a3d669) | ✅ 已完成 | `ai-core-50-terms.html`、Git 流程 |
 | **📚 知識與檔案** | **00_Inbox每週歸檔 ＆ 智庫聚焦03資源** (Issue #16)<br/>**每週靈感提煉（Weekly Review）機制** (Issue #17) | 🔄 進行中 | 389篇精品智庫、Telegram靈感分流與轉化 |
-| **⚙️ 系統與同步** | [雙機路徑整頓與MCP修復](conversation://cc1eb7dc-de9e-43ad-8739-c50b5ce07188)<br/>**四大核心工具生態系 Tools Hub** | 🚀 最新完成 | 一鍵雙軌啟動/停止、連線健康綠燈<br/>[線上全局看板](https://kevinz1979.github.io/my-kanban/) |
+| **⚙️ 系統與同步** | [雙機路徑整頓與MCP修復](conversation://cc1eb7dc-de9e-43ad-8739-c50b5ce07188)<br/>**四大核心工具生態系 Tools Hub** | 🚀 最新完成 | 一鍵雙軌啟動/停止、連線健康綠燈<br/>[線上全局看板](https://kevinz1979.github.io/mr693-kanban/) |
+
