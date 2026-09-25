@@ -41,7 +41,10 @@
   - [x] 修復倉庫命名單一真理（全面錨定 `kevinz1979/mr693-kanban`）
   - [x] 擴充 `github_mcp.py`：新增 `get_issue_detail`、`add_issue_labels`，支援多狀態篩選與標籤注入
   - [x] 升級 `AGENTS.md` 規範：任務自動附帶領域 (`area:`)、指派常駐代理人 (`agent:`) 與優先級 (`P1/P2`)
-  - [ ] 推進階段二：Telegram 語音速記秒發卡與 Jev 脊髓秒審
+  - [x] 實作 Jev 任務語意秒審與派工路由器 (`jev_task_router.py`)，具備雙核脊髓離線抗熔斷能力
+  - [x] 串聯 Telegram Bot (`@MR693_Bot`)：支援自然語言/語音速記秒發 GitHub 任務卡片、`/tasks` 查詢看板
+  - [ ] 推進階段三：GitHub Actions 背景自動化推進、本地 `task.md` 雙向同步與週日自動複盤
+
 
 ---
 
