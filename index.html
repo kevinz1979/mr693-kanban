@@ -106,7 +106,7 @@
       </a>
 
       <!-- Tool 4: Agentic Kanban -->
-      <a href="https://github.com/kevinz1979/my-kanban" target="_blank" class="group block p-3 rounded-xl border transition hover:shadow-md" style="background:var(--card-subtle);border-color:var(--border)">
+      <a href="https://github.com/kevinz1979/mr693-kanban" target="_blank" class="group block p-3 rounded-xl border transition hover:shadow-md" style="background:var(--card-subtle);border-color:var(--border)">
         <div class="flex items-center justify-between mb-1.5">
           <div class="flex items-center gap-2">
             <span class="text-xl">📋</span>
@@ -137,7 +137,7 @@
       直接編輯同目錄的 <code>tasks.json</code> 即可自動同步最新任務，支援 GitHub Pages 跨裝置瀏覽。
     </div>
     <div>
-      <a href="https://github.com/kevinz1979/my-kanban" target="_blank" class="text-blue-500 hover:underline">檢視 GitHub 倉庫</a>
+      <a href="https://github.com/kevinz1979/mr693-kanban" target="_blank" class="text-blue-500 hover:underline">檢視 GitHub 倉庫</a>
     </div>
   </div>
 
@@ -170,7 +170,7 @@ function renderTask(task, color) {
   
   let linkHtml = '';
   if (task.issue) {
-    linkHtml = `<a href="https://github.com/kevinz1979/my-kanban/issues/${task.issue}" target="_blank" class="text-[11px] font-semibold text-blue-500 hover:underline flex items-center gap-0.5">Issue #${task.issue} ↗</a>`;
+    linkHtml = `<a href="https://github.com/kevinz1979/mr693-kanban/issues/${task.issue}" target="_blank" class="text-[11px] font-semibold text-blue-500 hover:underline flex items-center gap-0.5">Issue #${task.issue} ↗</a>`;
   } else if (isConv) {
     linkHtml = `<button onclick="copyConvId('${task.id}')" title="點擊複製對話 ID" class="text-[11px] text-blue-500 hover:underline cursor-pointer">對話: ${task.id.substring(0,8)} 📋</button>`;
   } else {

@@ -7,9 +7,9 @@
 
 ## 🧭 核心功能與入口
 
-* 📊 **[GitHub Projects 專案看板](https://github.com/kevinz1979/my-kanban/projects)**：可視化拖曳式 Kanban 看板（待辦 / 進行中 / 已完成）。
-* 📌 **[GitHub Issues 任務清單](https://github.com/kevinz1979/my-kanban/issues)**：AI 自動化建構的結構化任務卡片與行動清單。
-* 🌐 **[線上儀表板 (GitHub Pages)](https://kevinz1979.github.io/my-kanban/)**：跨裝置免登入、支援搜尋與分類篩選之任務總覽。
+* 📊 **[GitHub Projects 專案看板](https://github.com/kevinz1979/mr693-kanban/projects)**：可視化拖曳式 Kanban 看板（待辦 / 進行中 / 已完成）。
+* 📌 **[GitHub Issues 任務清單](https://github.com/kevinz1979/mr693-kanban/issues)**：AI 自動化建構的結構化任務卡片與行動清單。
+* 🌐 **[線上儀表板 (GitHub Pages)](https://kevinz1979.github.io/mr693-kanban/)**：跨裝置免登入、支援搜尋與分類篩選之任務總覽。
 
 ---
 
