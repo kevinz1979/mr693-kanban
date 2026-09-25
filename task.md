@@ -34,16 +34,19 @@
   - [x] 部署 Tools Hub 四維導航列至看板（8000 轉錄、8765 智庫、@MR693_Bot 靈感速遞、看板）
   - [x] 實作跨機相容 `啟動全部服務.bat` 與 `停止全部服務.bat`
   - [x] 結案 Issue #16（00_Inbox 影音分流與 389 篇知識庫索引全自動化）
-  - [ ] 推進 Issue #17（每週靈感提煉 Weekly Review SOP 與轉化）
+  - [x] 結案 Issue #17（每週靈感提煉 Weekly Review SOP 與轉化）
 
-- [/] **階段六：看板智慧化升級與 Agentic Mission Control (2026-09-26)**
+- [x] **階段六：看板智慧化升級與 Agentic Mission Control (2026-09-26)**
   - [x] 完成開源前沿 (KaibanJS/Agent Kanban/Chorus) 激發之升級計劃書
   - [x] 修復倉庫命名單一真理（全面錨定 `kevinz1979/mr693-kanban`）
   - [x] 擴充 `github_mcp.py`：新增 `get_issue_detail`、`add_issue_labels`，支援多狀態篩選與標籤注入
   - [x] 升級 `AGENTS.md` 規範：任務自動附帶領域 (`area:`)、指派常駐代理人 (`agent:`) 與優先級 (`P1/P2`)
   - [x] 實作 Jev 任務語意秒審與派工路由器 (`jev_task_router.py`)，具備雙核脊髓離線抗熔斷能力
   - [x] 串聯 Telegram Bot (`@MR693_Bot`)：支援自然語言/語音速記秒發 GitHub 任務卡片、`/tasks` 查詢看板
-  - [ ] 推進階段三：GitHub Actions 背景自動化推進、本地 `task.md` 雙向同步與週日自動複盤
+  - [x] 實裝雙軌看板同步中樞 (`sync_kanban.py`)，即時映射 21+ 筆 GitHub Issues 至本地 `tasks.json`
+  - [x] 升級 GitHub Pages 線上看板 (`index.html`)，支援實時 GitHub Live 連線、常駐代理人 Badge 與進度條
+  - [x] 實裝每週戰略複盤引擎 (`weekly_review.py`) 與標準指引，圓滿結案 Issue #17
+
 
 
 ---
